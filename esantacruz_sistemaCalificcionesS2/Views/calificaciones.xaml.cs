@@ -9,6 +9,6 @@ public partial class calificaciones : ContentPage
 
     private void btnCalular_Clicked(object sender, EventArgs e)
     {
-
+S
     }
 }
