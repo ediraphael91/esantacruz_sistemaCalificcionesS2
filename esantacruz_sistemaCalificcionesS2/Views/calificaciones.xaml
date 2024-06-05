@@ -3,10 +3,35 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="esantacruz_sistemaCalificcionesS2.Views.calificaciones"
              Title="calificaciones">
-    <VerticalStackLayout>
+    <VerticalStackLayout
+        Spacing="25"
+        Padding="20"
+     >
+
         <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+     Text="SISTEMA CALIFICACIONES"
+     FontSize="20"
+     HorizontalTextAlignment="Center"
+     TextColor="Red"/>
+        
+        <Picker x:Name="pkNotas" Title="Notas">
+            <Picker.Items>
+                <x:String>Luis Torres</x:String>
+                <x:String>Edison Santacruz</x:String>
+                <x:String>Marcelo Moran</x:String>
+                <x:String>Carlos Galeano</x:String>
+                <x:String>Estefania Soria</x:String>
+            </Picker.Items>
+        </Picker>
+
+        
+
+
+
+        <Button x:Name="btnCalular"
+         Text="Calcular"
+         Clicked="btnCalular_Clicked"
+     
+     />
+
 </ContentPage>
