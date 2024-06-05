@@ -4,7 +4,7 @@ public partial class calificaciones : ContentPage
 {
 	public calificaciones()
 	{
-		InitializeComponent();
+		InitializeComponent(); 
 	}
 
     private void btnCalular_Clicked(object sender, EventArgs e)
